@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Signer</title>
+</head>
+<body>
+    <div>
+        <input type="file" id="pdfFile" accept=".pdf" />
+        <input type="file" id="p12File" accept=".p12" />
+        <input type="password" id="p12Password" placeholder="P12 Password" />
+        <button onclick="signPDF()">Sign PDF</button>
+    </div>
+    <script src="dist/bundle.js"></script>
+</body>
+</html>
