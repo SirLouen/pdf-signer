@@ -21,3 +21,5 @@ And finally, run the following command to start the server:
 ```bash
 npm start
 ```
+
+We can find a test certificate in the `certs` folder. The password for the certificate is `test`.
